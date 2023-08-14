@@ -193,7 +193,6 @@
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       text-align: center;
-      font-family: "Roboto Mono";
     }
 
     h2 {
@@ -246,7 +245,7 @@
 
 
 <div class="m-p-g">
-  <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+  <div class="m-p-g__thumbs" data-google-image-layout data-max-height="250">
     {{ range .Params.images }}
       <img src="{{.}}" target="_blank" class="m-p-g__thumbs-img" />
     {{ end }}
