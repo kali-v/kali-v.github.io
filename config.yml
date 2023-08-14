@@ -1,0 +1,42 @@
+baseurl: https://kali-v.github.io
+title: ""
+languageCode: en-us
+theme: thm
+paginate: 10
+disableSitemap: true
+params:
+  math: true
+  dateform: 'Jan 2, 2006'
+  dateformShort: Jan 2
+  dateformNum: '2006-01-02'
+  dateformNumTime: '2006-01-02'
+  disableReadOtherPosts: true
+  enableSharingButtons: false
+  defaultTheme: "light"
+  keywords: 'homepage, blog'
+  images:
+    - ''
+taxonomies:
+  category: blog
+  tag: tags
+  series: series
+languages:
+  en:
+    title: ""
+    keywords: ''
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: /posts
+    - identifier: projects
+      name: projects
+      url: /projects/overview
+    #- identifier: about
+    #  name: about
+    #  url: /about
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+

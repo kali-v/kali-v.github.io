@@ -1,0 +1,13 @@
+<header class="header">
+    <span class="header__inner">
+        {{ partial "logo.html" . }}
+
+        <span class="header__right">
+            {{ if len .Site.Menus }}
+                {{ partial "menu.html" . }}
+            {{ end }}
+
+            <span class="theme-toggle not-selectable">{{ partial "theme-toggle-icon.html" . }}</span>
+        </span>
+    </span>
+</header>
